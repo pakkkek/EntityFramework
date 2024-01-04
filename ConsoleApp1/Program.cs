@@ -40,7 +40,7 @@ namespace ConsoleApp1
 
     public class TournamentDbContext : DbContext
     {
-        public string connectionString = @"Data Source=\SQLEXPRESS;Initial Catalog=TournamentTableDB;Integrated Security=True;Encrypt=False";
+        public string connectionString = @"Data Source=WIN-0I7PB3TGH35\SQLEXPRESS;Initial Catalog=TournamentTable;Integrated Security=True;Encrypt=False";
 
         public TournamentDbContext()
         {
